@@ -1,0 +1,9 @@
+{
+  "name": "GPL-3.0",
+  "version": "1.0.0",
+  "description": "secutity",
+  "main": "index.js",
+  "repository": "https://github.com/cepdnaclk/e16-3yp-smart-door-lock.git",
+  "author": "nahom",
+  "license": "MIT"
+}

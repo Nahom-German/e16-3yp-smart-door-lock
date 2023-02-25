@@ -87,7 +87,7 @@ class ChangeNumber  extends Component{
 
                 <div class="form-group">
                 
-                    <input type="text" class="form-control" name="number" id="number" autoComplete='off' placeholder="+94........."
+                    <input type="text" class="form-control" name="number" id="number" autoComplete='off' placeholder="+251........."
                     onChange = {this.handleChange}  
                     value ={this.state.number} />
                     
@@ -104,7 +104,7 @@ class ChangeNumber  extends Component{
             </div>
             </div>
         </div>
-        <label id ='#error'class="text-info">Enter the country code first<br/>There should be 11 digits and no letters <br/>Example : +94714554552</label> 
+        <label id ='#error'class="text-info">Enter the country code first<br/>There should be 7 digits and no letters <br/>Example : +2519412705</label> 
         <br/>
         <p class="text-warning" id='regmsg'></p> 
         </div>

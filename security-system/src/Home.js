@@ -53,7 +53,7 @@ class Home extends Component{
             <div>
                 
                 <div>
-                <img src="/images/image1.jpg"   width="100%" height="500"></img></div>
+                <img src="/images/image2.jpg"   width="100%" height="500"></img></div>
                {button}
                
             </div>
