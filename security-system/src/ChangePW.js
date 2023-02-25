@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import fire from "./config/fire.js";
+import fire from "./config/firebase.js";
 import Login from "./Login.js";
 import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
 
@@ -89,8 +89,8 @@ class ChangePW extends Component{
                        
                         <input type="password" class="form-control" name="PW" onChange = {this.handleChange} id="PW" placeholder="Enter new Password"
                         value ={this.state.password}
-                        onChange = {this.handleChange}
-                        />
+                     
+                      />
                     
                     
                     
