@@ -5,7 +5,7 @@ import Home from "./Home.js";
 
 
 import { render, cleanup, fireEvent } from '@testing-library/react';
-import Firebase from './config/fire';
+import Firebase from './config/firebase';
 import { authMock } from './setupTests';
 // @ts-ignore
 Firebase.auth.onAuthStateChanged = authMock;

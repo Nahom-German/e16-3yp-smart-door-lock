@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import fire from "./config/fire.js";
+import fire from "./config/firebase.js";
 import Home from "./Home.js";
 import {Link} from 'react-router-dom';
 import AddData from './AddData.js';

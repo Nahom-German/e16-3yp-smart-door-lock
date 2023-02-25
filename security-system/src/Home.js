@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import fire from "./config/fire.js";
+import fire from "./config/firebase.js";
 import SignIn from "./SignIn.js";
 import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
 class Home extends Component{

@@ -1,7 +1,7 @@
 
 import './App.css';
 import React, {Component} from 'react';
-import fire from './config/fire.js';
+import fire from './config/firebase.js';
 import Login from "./Login.js"
 import Home from "./Home.js"
 import { BrowserRouter as Router, Link, NavLink, Redirect, Prompt} from 'react-router-dom';
